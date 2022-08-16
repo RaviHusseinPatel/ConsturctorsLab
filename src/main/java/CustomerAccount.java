@@ -11,4 +11,12 @@ public class CustomerAccount {
         lastName = personLastname;
         heldMoney = personHeldMoney;
     }
+
+    void setFirstName(String newfirstName){
+        firstName = newfirstName;
+    }
+
+    String getFullname(){
+        return this.firstName + lastName;
+    }
 }

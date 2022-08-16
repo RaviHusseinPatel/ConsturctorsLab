@@ -23,6 +23,11 @@ public class Main {
         System.out.println(rectangle1.getArea());
 
      ///Customer Real World Example
+
+        CustomerAccount person1 = new CustomerAccount();
+        CustomerAccount person2 = new CustomerAccount();
+
+
     }
 
 }
